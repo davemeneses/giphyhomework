@@ -1,3 +1,5 @@
+// This is the giphy homework! This felt super attainable and was pretty fun to do. Stephen, Christine and I all worked on this together but without Tom's example I would not have been able to animate/pause each gif.
+
 $(document).ready(function() {
   //this is the array I push all the things users search. I pre-populated it with 6.
   var sports = [
@@ -60,7 +62,7 @@ $(document).ready(function() {
     createButtons();
   });
 
-  //this function actually creates the buttons from the key word (or words) that the user searched
+  //this function actually creates the buttons from the key word (or words) that the user searched. I add a couple more tags onto things that I can reference later (the sport id and data-search: sports[i] which adds each searched term)
   function createButtons() {
     $("#buttons").empty();
     for (var i = 0; i < sports.length; i++) {
