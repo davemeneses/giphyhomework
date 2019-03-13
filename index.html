@@ -16,35 +16,37 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
-    <title>Document</title>
+    <title>GIF Creator</title>
   </head>
   <body>
-    <div class="row">
-      <div class="col" id="buttons"><h1>buttons row</h1></div>
-    </div>
-    <div class="row" id="contentRow">
-      <div class="col-8" id="gifs">gifs</div>
-      <div class="col-4" id="buttonMaker">
-        <form>
-          <div class="form-group">
-            <label>Add a Sport!</label>
-            <input
-              class="form-control"
-              id="searchArea"
-              placeholder="Type Your Sport Here!"
-            />
-          </div>
-          <button
-            type="submit"
-            id="submitButton"
-            class="btn btn-primary btn-sm"
-          >
-            Submit
-          </button>
-        </form>
+    <div class="container">
+      <div class="row"><h1>Let's Make Some Sports GIFS My Dudes!!</h1></div>
+      <div class="row">
+        <div class="col" id="buttons"><h1>buttons row</h1></div>
+      </div>
+      <div class="row" id="contentRow">
+        <div class="col-8" id="gifs"></div>
+        <div class="col-4" id="buttonMaker">
+          <form>
+            <div class="form-group">
+              <label>Add a Sport!</label>
+              <input
+                class="form-control"
+                id="searchArea"
+                placeholder="Type Your Sport Here!"
+              />
+            </div>
+            <button
+              type="submit"
+              id="submitButton"
+              class="btn btn-primary btn-sm"
+            >
+              Search
+            </button>
+          </form>
+        </div>
       </div>
     </div>
-
     <script src="./javascript/javascript.js"></script>
   </body>
 </html>
